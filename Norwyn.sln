@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norwyn.Infrastructure", "No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Norwyn.Shared", "Norwyn.Shared\Norwyn.Shared.csproj", "{85DC2367-601E-46B3-A2DB-39D616E8BFA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B35DB536-95BA-41A0-A6B5-B29E8BCB47F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{85DC2367-601E-46B3-A2DB-39D616E8BFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85DC2367-601E-46B3-A2DB-39D616E8BFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85DC2367-601E-46B3-A2DB-39D616E8BFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35DB536-95BA-41A0-A6B5-B29E8BCB47F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35DB536-95BA-41A0-A6B5-B29E8BCB47F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35DB536-95BA-41A0-A6B5-B29E8BCB47F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35DB536-95BA-41A0-A6B5-B29E8BCB47F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

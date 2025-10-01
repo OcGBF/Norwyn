@@ -1,0 +1,20 @@
+@model SignUpViewModel
+@{
+    Layout = "_Layout";
+}
+
+<h1>SignUp page</h1>
+
+<form asp-action="SignUp" method="post">
+    <input asp-for="FullName" placeholder="Full Name" />
+    <input asp-for="Email" placeholder="Email" />
+    <input asp-for="Password" type="password" placeholder="Password" />
+    <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password" />
+    @* @Html.HiddenFor(model => model.ShowMessage) *@
+    <button type="submit">Submit</button>
+</form>
+
+@if (Model is { ShowMessage: true })
+{
+    <h1>A verification code has been sent to your email. </h1>
+}

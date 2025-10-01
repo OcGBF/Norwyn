@@ -1,0 +1,22 @@
+@model Norwyn.App.Models.CityRollsViewModel
+
+<form asp-action="CityRollsLogin" method="post">
+    <input asp-for="Username" placeholder="Username" />
+    <input asp-for="Password" placeholder="Password" type="password" />
+
+    <div>
+        <label>Select Role:</label><br />
+        <input type="radio" asp-for="SelectedRole" value="Police" /> Police <br />
+        <input type="radio" asp-for="SelectedRole" value="Medic" /> Medic <br />
+        <input type="radio" asp-for="SelectedRole" value="Engineer" /> Engineer <br />
+        <input type="radio" asp-for="SelectedRole" value="Judge" /> Judge <br />
+        <input type="radio" asp-for="SelectedRole" value="Builder" /> Builder <br />
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div>@ViewBag.Message</div>
+}
