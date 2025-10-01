@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Norwyn.Infrastructure\Norwyn.Infrastructure.csproj" />
+      <ProjectReference Include="..\Norwyn.Shared\Norwyn.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

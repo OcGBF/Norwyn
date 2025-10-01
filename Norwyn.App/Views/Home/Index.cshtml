@@ -1,8 +1,18 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model (string,string)
+
+@{
+    ViewData["Title"] = "Norwyn - Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center mt-5">
+    <h1 class="display-4">Welcome to Norwyn!</h1>
+    <p class="lead">Please log in or sign up to continue.</p>
+    
+    <div class="mt-4">
+        <!-- Login Button -->
+        <a href="/Login" class="btn btn-primary btn-lg me-2">Log In</a>
+        
+        <!-- Sign Up Button -->
+        <a href="/Account/SignUp" class="btn btn-success btn-lg">Sign Up</a>
+    </div>
 </div>

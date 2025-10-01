@@ -13,9 +13,9 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+    public IActionResult Index(string email , string password)
     {
-        return View();
+        return View(email, password);
     }
 
     public IActionResult Privacy()
