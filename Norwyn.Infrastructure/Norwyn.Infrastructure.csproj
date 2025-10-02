@@ -16,5 +16,3 @@
     <ItemGroup>
       <ProjectReference Include="..\Norwyn.Shared\Norwyn.Shared.csproj" />
     </ItemGroup>
-
-</Project>
