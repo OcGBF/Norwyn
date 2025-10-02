@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Norwyn.Shared.Models.Users;
 
-namespace Norwyn.App.Data
+namespace Norwyn.Infrastructure.Data
 {
     public class ApplicationDbContext : DbContext
     {

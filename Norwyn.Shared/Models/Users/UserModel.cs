@@ -7,7 +7,7 @@ namespace Norwyn.Shared.Models.Users;
 public class UserModel
 {
     [Key]
-    public long ID { get; set; }
+    public long ID { get; set; } //Primary key
     
     public string UserName { get; set; }
     

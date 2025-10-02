@@ -1,6 +1,10 @@
-namespace Norwyn.Services.Account;
+using Norwyn.Shared.Models.Users;
+using System.Threading.Tasks;
 
-public class IAccountService
+namespace Norwyn.Services.Account
 {
-    
+    public interface IAccountService
+    {
+        Task<bool> RegisterUserAsync(UserModel user);
+    }
 }
