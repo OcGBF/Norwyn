@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Norwyn.App.Data;
+using Norwyn.Infrastructure.Data;
 using Norwyn.Services;
 using Norwyn.Infrastructure.Repositories;
 using Norwyn.Services.Account;
